@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1"
+  conditions="Default.QSG,Default.Print">
+  <TocEntry
+    Title="QSG_TitlePage"
+    Link="/Content/Print Only Topics/QSG_TitlePage.htm"
+    BreakType="chapter"
+    PageType="title"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    PageNumberReset="reset"
+    PageNumberFormat="lower-roman"
+    StartSection="false"
+    PageNumber="1"
+    PageLayout="/Content/Resources/PageLayouts/QSG FrontMatter.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="TOC"
+    Link="/Content/Print Only Topics/TOC.htm"
+    BreakType="chapter"
+    PageType="right"
+    PageNumberReset="reset"
+    PageNumberFormat="lower-roman"
+    ChapterNumberReset="same"
+    StartSection="false"
+    PageNumber="1"
+    PageLayout="/Content/Resources/PageLayouts/QSG Chapters.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"></TocEntry>
+  <TocEntry
+    Title="Foreword"
+    Link="/Content/01_Introduction Topics/a2.QSG_Legal.htm"
+    BreakType="chapter"
+    PageType="right"
+    PageNumberReset="reset"
+    PageNumberFormat="decimal"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    ChapterNumberFormat="decimal"
+    StartSection="false"
+    PageNumber="1"
+    PageLayout="/Content/Resources/PageLayouts/QSG Chapters.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ReplaceMergeNode="false">
+    <TocEntry
+      Title="Document Information"
+      Link="/Content/01_Introduction Topics/a4.Doc Info.htm" />
+    <TocEntry
+      Title="Document Conventions"
+      Link="/Content/01_Introduction Topics/d.Document_Conventions.htm" />
+    <TocEntry
+      Title="Technical Support"
+      Link="/Content/01_Introduction Topics/e.Tech Support &amp; Warranty.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Unpacking the System"
+    Link="/Content/03_Unpacking/a.Unpacking.htm"
+    BreakType="chapter"
+    PageType="right"
+    StartSection="false"
+    PageNumberReset="continue"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/QSG Chapters.flpgl">
+    <TocEntry
+      Title="Connecting to AC Power"
+      Link="/Content/03_Unpacking/c.Setting Up.htm" />
+    <TocEntry
+      Title="Operating the System"
+      Link="/Content/03_Unpacking/e.Operating.htm"
+      StartSection="false"
+      ReplaceMergeNode="false" />
+    <TocEntry
+      Title="Troubleshooting"
+      Link="/Content/03_Unpacking/g.Troubleshooting.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Integris 2000: Getting Started"
+    ChapterNumberFormat="decimal"
+    ChapterNumberReset="continue"
+    ChapterNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ComputeToc="false"
+    ReplaceMergeNode="false"
+    BreakType="chapter"
+    PageType="right"
+    PageNumberFormat="decimal"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/QSG Chapters.flpgl"
+    Link="/Content/20_2000/a.Introduction.htm"
+    PageNumber="1"
+    AutoEndOnLeftPage="enabled">
+    <TocEntry
+      Title="Connecting to the RAN"
+      Link="/Content/20_2000/b4.Connecting_2k.htm"
+      StartSection="false" />
+    <TocEntry
+      Title="Starting &amp; Closing Integris 2000"
+      Link="/Content/20_2000/b1.Starting &amp; Closing Integris 2000.htm" />
+    <TocEntry
+      Title="Classic or Modern Menus"
+      Link="/Content/20_2000/b2.Classic &amp; Modern Menus.htm" />
+    <TocEntry
+      Title="Running Installation Tests"
+      Link="/Content/20_2000/f2a.Running the Install Test.htm" />
+    <TocEntry
+      Title="Troubleshooting an Installation"
+      Link="/Content/20_2000/f2b.Troubleshooting.htm" />
+    <TocEntry
+      Title="Displaying Integris 2000 Power Graphs"
+      Link="/Content/20_2000/G.Power Graph QSG.htm" />
+    <TocEntry
+      Title="Accessing Integris Help"
+      Link="/Content/20_2000/c5a.Help.htm" />
+    <TocEntry
+      Title="Uploading Debug Logs"
+      Link="/Content/20_2000/c5b.Upload Logs.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Integris 3000: Getting Started"
+    Link="/Content/30_3000/4.Integris_3000.htm"
+    StartSection="true"
+    ChapterNumberReset="continue"
+    ChapterNumber="2"
+    ChapterNumberFormat="decimal"
+    PageNumberReset="continue"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ComputeToc="false"
+    ReplaceMergeNode="false"
+    BreakType="chapter"
+    PageNumber="1"
+    PageLayout="/Content/Resources/PageLayouts/QSG Chapters.flpgl"
+    PageNumberFormat="decimal"
+    PageType="right">
+    <TocEntry
+      Title="Connecting to the RAN"
+      Link="/Content/30_3000/a1.Connecting 3k.htm" />
+    <TocEntry
+      Title="Starting &amp; Closing Integris 3000"
+      Link="/Content/30_3000/b0.Starting &amp; Closing Integris 3000.htm"></TocEntry>
+    <TocEntry
+      Title="The Integris 3000 Display"
+      Link="/Content/30_3000/b1.Integris_3000_Display.htm" />
+    <TocEntry
+      Title="The Menu Selector"
+      Link="/Content/30_3000/b3.Menus&amp;Menu_Selector.htm" />
+    <TocEntry
+      Title="Quick Setup for Integris 3000"
+      Link="/Content/30_3000/b2.QSG Exercise.htm">
+      <TocEntry
+        Title="END PAGE"
+        Link="/Content/Print Only Topics/End_Page.htm"
+        BreakType="pageLayout"
+        PageType="continue"
+        ChapterNumberReset="same"
+        conditions="Default.Print"
+        StartSection="false"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

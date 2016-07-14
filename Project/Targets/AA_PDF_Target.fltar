@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="User Guide"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  PatchHeadingLevels="true"
+  InjectEmptyPages="true"
+  conditions="Default.Print"
+  OutputFile="Trace_Viewer_UG_30001"
+  ConditionTagExpression="include[Default.Print]exclude[Default.Screen]"
+  MasterPageLayout="/Content/Resources/PageLayouts/Chapters.flpgl"
+  DisableAutoSync="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    ExpandingTextConversion="expand"
+    PopupConversion="remove-body"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <DocumentProperties
+    Title="User Guide"
+    Author="Haz Fairweather"
+    Subject="Investigator Viewer User Guide" />
+  <PDF
+    ShowUsedBookmarks="false"
+    InitialMagnification="75"
+    PageLayout="OneColumn"
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true"
+    CropAndRegistrationMarks="false"
+    ConvertToCMYK="true"
+    Tagged="false" />
+  <Glossaries />
+</CatapultTarget>

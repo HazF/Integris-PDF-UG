@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="Integris Quick Start Guide"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/RL_QSG_TOC.fltoc"
+  ConditionTagExpression="include[Default.Print or Default.QSG] exclude[Default.Screen] "
+  PatchHeadingLevels="true"
+  InjectEmptyPages="true"
+  OutputFile="[%=AA_Integris-2k3k_Vars.DCN-QSG-FileName%]"
+  MasterStylesheet="/Content/Resources/Stylesheets/AA_Integris-styles01.css"
+  MasterPageLayout="/Content/Resources/PageLayouts/QSG Chapters.flpgl"
+  conditions="Default.Print,Default.QSG">
+  <PrintedOutput
+    CollapseMargins="true"
+    ExpandingTextConversion="expand"
+    PopupConversion="remove-body"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <DocumentProperties
+    Title="Integris Quick Start Guide"
+    Author="Haz Fairweather"
+    Subject="Integris Quick Start Guide" />
+  <PDF
+    ShowUsedBookmarks="false"
+    InitialMagnification="75"
+    PageLayout="OneColumn"
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true"
+    CropAndRegistrationMarks="false"
+    ConvertToCMYK="true"
+    Tagged="false" />
+</CatapultTarget>
